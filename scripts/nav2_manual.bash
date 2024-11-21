@@ -9,7 +9,7 @@ gnome-terminal --tab -- bash -c 'ros2 launch scout_description scout_base_descri
 sleep 2
 gnome-terminal --tab -- bash -c 'ros2 launch rslidar_sdk start.py; exec bash'
 sleep 2
-gnome-terminal --tab -- bash -c 'ros2 launch pointcloud_to_laserscan sample_pointcloud_to_laserscan_launch.py; exec bash'
+gnome-terminal --tab -- bash -c 'ros2 launch pointcloud_to_laserscan gimcrack_pointcloud_to_laserscan_launch.py; exec bash'
 sleep 2
 gnome-terminal --tab -- bash -c 'ros2 launch nav2_bringup navigation_launch.py; exec bash'
 sleep 3

@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Might look into further but currently NAV2 does not work with certain symlink directories. 
+#Might need to change to individual file symlinks.
+
+
 # To Run: (from same directory)
 # sudo chmod +x symlnks.sh
 # ./symlinks.sh
